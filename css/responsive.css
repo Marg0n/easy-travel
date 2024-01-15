@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+  header {
+    margin-top: 0;
+    display: flex;
+    /* border: red solid; */
+    flex-direction: column;
+  }
+
+  .logo img {
+    width: 1.7rem;
+    height: 2.1rem;
+    margin-right: .25rem;
+  }
+
+  .logo p {
+    font-size: 1.3rem;
+  }
+
+  nav {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+}
