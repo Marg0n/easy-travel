@@ -169,4 +169,35 @@
   }
 
   /* ----------------------------------News letter---------------------------------- */
+
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .newsletter .text-container {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .newsletter .image-container {
+    width: 100%;
+  }
+
+  .newsletter .image-container .sticker {
+    width: 14rem;
+    height: 5rem;
+    bottom: 11%;
+    right: 0.51%;
+  }
+
+  .newsletter .image-container .sticker .sticker-text1 {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .newsletter .image-container .sticker .sticker-text2 {
+    font-size: 1.5rem;
+  }
+
+    /* ----------------------------------Footer---------------------------------- */
 }
