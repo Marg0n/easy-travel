@@ -191,6 +191,19 @@
     top: 10%;
   }
 
+  .dealsDiscounts .dealsDiscounts-list .offer1 .info-container1 .texts p{
+    margin-bottom: 0.5rem;
+  } 
+
+  .dealsDiscounts .dealsDiscounts-list .offer2 .info-container2 .texts p{
+    margin-bottom: 0.5rem;
+  } 
+  
+  .dealsDiscounts .dealsDiscounts-list .offer3 .info-container3 .texts p{
+    margin-bottom: 0.5rem;
+  } 
+  
+
   .dealsDiscounts .dealsDiscounts-list .offer1 .info-container1 .texts .price{    
     margin-bottom: 0.5rem;
   }
