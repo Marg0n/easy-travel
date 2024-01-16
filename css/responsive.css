@@ -144,6 +144,20 @@
     right: 34%;
   }
 
+  /* ----------------------------------extra discount save money---------------------------------- */
+
+  .savemoney .savemoney-form {
+    flex-direction: column-reverse;
+  }
+  .savemoney .image-container {
+    width: 100%;
+  }
+
+  .savemoney .text-container {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
   /* ----------------------------------Why us---------------------------------- */
 
   .why-us .why-us-container .reason1 {
@@ -166,6 +180,16 @@
     border: 1px solid rgba(233, 68, 68, 0.2);
     background: rgba(233, 68, 68, 0.05);
     padding: 2rem;
+  }
+
+  /* ----------------------------------perfect place---------------------------------- */
+
+  .perfect-place {
+    flex-direction: column;
+  }
+
+  .perfect-place .perfect-place-container {
+    width: 100%;
   }
 
   /* ----------------------------------News letter---------------------------------- */
