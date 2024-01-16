@@ -1,6 +1,6 @@
 /* ----------------------------------universal---------------------------------- */
 
-@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   padding: 0;
@@ -496,5 +496,76 @@ button {
   font-weight: 800;
   text-align: center;
 }
-/* border: red 1px solid; */
+
 /* ----------------------------------Footer---------------------------------- */
+
+footer {
+  padding-top: 6.875rem;
+  min-height: 600px;
+  max-width: 100%;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+footer .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.875rem;
+}
+
+footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+footer .footer-logo img {
+  width: 2.5rem;
+  height: 2.875rem;
+}
+
+footer .footer-logo .footer-text {
+  height: 100%;
+  font-size: 32px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+footer .text-container p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+footer .line {
+  width: 82%;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+  margin-top: 3.125rem;
+}
+
+footer .social-media {
+  margin-top: 1.7rem;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-media .fa-brands {
+  font-size: 1.5rem;
+}
+
+footer .copyright {
+  margin-top: 6.25rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

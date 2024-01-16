@@ -199,5 +199,20 @@
     font-size: 1.5rem;
   }
 
-    /* ----------------------------------Footer---------------------------------- */
+  /* ----------------------------------Footer---------------------------------- */
+
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 100%;
+  }
+
+  footer .footer-logo {
+    margin-bottom: 3rem;
+  }
+
+  footer .social-media {
+    width: 40%;
+    justify-content: space-around;
+  }
 }
