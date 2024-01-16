@@ -9,7 +9,7 @@
   .logo img {
     width: 1.7rem;
     height: 2.1rem;
-    margin-right: .25rem;
+    margin-right: 0.25rem;
   }
 
   .logo p {
@@ -20,5 +20,23 @@
     flex-direction: column;
     width: 100%;
     justify-content: center;
+  }
+
+  .banner {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner .selectors input,
+  #month,
+  #transport,
+  button {
+    width: 20rem;
+  }
+
+  .banner .selectors {
+    display: flex;
+    flex-direction: column;
   }
 }
