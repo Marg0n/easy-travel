@@ -377,5 +377,35 @@ button {
   gap: 1.5rem;
 }
 
+.why-us .why-us-container .reason1 {
+  width: 48%;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 2rem;
+}
+
+.why-us .why-us-container .reason2 {
+  width: 48%;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 2rem;
+}
+
+.why-us .why-us-container .reason3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us .why-us-container .reason3 div {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 2rem;
+}
+
 /* ----------------------------------News letter---------------------------------- */
 /* border: red 1px solid; */
