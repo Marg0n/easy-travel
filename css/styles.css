@@ -188,3 +188,214 @@ button {
   width: 48%;
   border-radius: 16px;
 }
+
+/* ----------------------------------destination---------------------------------- */
+
+.destination {
+  /* border: red 1px solid; */
+  margin: 0 auto;
+  max-width: 81.25%;
+  margin-top: 3rem;
+  /* min-height: 34.375rem; */
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.destination h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-top: 1.5rem;
+}
+
+/* .img1 {
+  width: 35.8125rem;
+  height: 18.75rem;
+  grid-area: img1;
+}
+.img2 {
+  width: 35.8125rem;
+  height: 18.75rem;
+  grid-area: img2;
+}
+.img3 {
+  width: 23.375rem;
+  height: 17.875rem;
+  grid-area: img3;
+}
+.img4 {
+  width: 29.625rem;
+  height: 17.875rem;
+  grid-area: img4;
+}
+.img5 {
+  width: 17.125rem;
+  height: 17.875rem;
+  grid-area: img5;
+}
+.img6 {
+  width: 29.5625;
+  height: 18.75rem;
+  grid-area: img6;
+}
+.img7 {
+  width: 42.0625rem;
+  height: 18.75rem;
+  grid-area: img7;
+} */
+
+.destination .destination-images {
+  /* border: red 1px solid; */
+  margin-top: 3rem;
+  /* display: grid;
+  grid-template-areas:
+    "img1 img2"
+    "img3 img4 img5"
+    "img6 img7"; 
+    gap: 1.2rem;*/
+  /* grid-template-rows: auto; */
+  /* grid-template-columns: repeat(4, 1fr); */
+}
+
+.destination .destination-images .container1 {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  /* gap: 1.5rem; */
+}
+
+.destination .destination-images .container1 img {
+  width: 48%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destination .destination-images .container1 .center-text1 {
+  position: absolute;
+  top: 30%;
+  left: 19%;
+  /* transform: translate(-50%, -50%); */
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.destination .destination-images .container1 .center-text2 {
+  position: absolute;
+  top: 30%;
+  right: 18%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.destination .destination-images .container2 {
+  /* display: grid;
+  grid-template-columns: 1fr 2fr 1fr; */
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  /* gap: 1.5rem; */
+}
+
+.destination .destination-images .container2 .img3 {
+  width: 23%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destination .destination-images .container2 .img4 {
+  width: 48%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destination .destination-images .container2 .img5 {
+  width: 23%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destination .destination-images .container2 .center-text3 {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.destination .destination-images .container2 .center-text4 {
+  position: absolute;
+  top: 35%;
+  left: 37%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.destination .destination-images .container2 .center-text5 {
+  position: absolute;
+  top: 40%;
+  right: 6%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.destination .destination-images .container3 {
+  /* display: grid;
+    grid-template-columns: 1fr 2fr 1fr; */
+  /* margin-bottom: 1.5rem; */
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover;
+  position: relative;
+  /* gap: 1.5rem; */
+}
+
+.destination .destination-images .container3 .img6 {
+  width: 28%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destination .destination-images .container3 .img7 {
+  width: 68%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destination .destination-images .container3 .center-text6 {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.destination .destination-images .container3 .center-text7 {
+  position: absolute;
+  top: 40%;
+  right: 28%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
