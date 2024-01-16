@@ -28,6 +28,10 @@
     background-position: center;
   }
 
+  .banner h3 {
+    margin-top: 2rem;
+  }
+
   .banner .selectors input,
   #month,
   #transport,
@@ -38,5 +42,18 @@
   .banner .selectors {
     display: flex;
     flex-direction: column;
+  }
+
+  .popular-tour {
+    flex-direction: column;
+  }
+
+  .popular-tour .popular-tour-text {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .popular-tour img {
+    width: 100%;
   }
 }
